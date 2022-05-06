@@ -200,7 +200,6 @@ exports.handler = async function (context, event, callback) {
       toNumber,
       toName,
       context.FROM_NUMBER,
-      email,
       workerUri
     );
   } catch (error) {
